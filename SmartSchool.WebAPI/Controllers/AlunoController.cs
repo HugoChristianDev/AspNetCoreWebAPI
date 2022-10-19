@@ -56,6 +56,7 @@ namespace SmartSchool.WebAPI.Controllers
                 a.Nome.Contains(nome) && a.Sobrenome.Contains(Sobrenome)
             );
             if (aluno == null) return BadRequest("O Aluno não foi encontrado");
+                 return Ok(aluno);
         }
 
         [HttpPost]
