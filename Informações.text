@@ -1,0 +1,21 @@
+Crie uma Web API com Asp .NET Core + EF Core + Docker
+
+## Código para verificar a versão do dotnet core
+dotnet –version
+
+## Criar um projeto
+dotnet new webapi -n nomedoprojeto
+
+## Selecionar uma versão do dotnet core
+dotnet new globaljson --sdk-version 3.1.413
+
+## Executando o programa
+Dotnet run
+Ou 
+Dotnet watch run
+
+## Criar uma solução
+dotnet new sln -n nomedasolucao
+
+## Add o projeto na solução
+dotnet sln nomedasolucao add nomedapasta/nomedoprojeto
